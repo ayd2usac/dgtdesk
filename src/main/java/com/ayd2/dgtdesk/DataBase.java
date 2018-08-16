@@ -14,8 +14,9 @@ import java.sql.SQLException;
  * @author NELSONJAIR
  */
 public class DataBase {
-      public static void connect() {
+      public static boolean connect() {
         Connection conn = null;
+        boolean res = false;
         try {
             // db parameters            
             String url = "jdbc:sqlite:db.sqlite";
@@ -23,6 +24,7 @@ public class DataBase {
             conn = DriverManager.getConnection(url);
             
             System.out.println("Connection to SQLite has been established.");
+            res = true;
             
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -35,5 +37,6 @@ public class DataBase {
                 System.out.println(ex.getMessage());
             }
         }
+        return res;
     }
 }
