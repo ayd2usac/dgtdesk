@@ -46,7 +46,7 @@ public class MainWindow extends javax.swing.JFrame {
 
         jLabel3.setText("Contraseña:");
 
-        jLabel4.setText("Bienvenido, ingrese sus credenciales de acceso");
+        jLabel4.setText("Bienvenido, ingrese sus credenciales de accesos");
 
         btnIngresar.setText("Ingresar");
         btnIngresar.addActionListener(new java.awt.event.ActionListener() {

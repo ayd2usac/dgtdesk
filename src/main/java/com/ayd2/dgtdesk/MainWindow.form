@@ -138,7 +138,7 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Bienvenido, ingrese sus credenciales de acceso"/>
+                <Property name="text" type="java.lang.String" value="Bienvenido, ingrese sus credenciales de accesos"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="btnIngresar">
