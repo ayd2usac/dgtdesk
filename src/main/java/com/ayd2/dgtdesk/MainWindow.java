@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ayd2.dgtdesk;jdsfskjdh
+package com.ayd2.dgtdesk;
 
 /**
  *
@@ -46,7 +46,7 @@ public class MainWindow extends javax.swing.JFrame {
 
         jLabel3.setText("Contraseña:");
 
-        jLabel4.setText("wBienvenido, ingrese sus credenciales de accesos");
+        jLabel4.setText("Bienvenido, ingrese sus credenciales");
 
         btnIngresar.setText("Ingresar");
         btnIngresar.addActionListener(new java.awt.event.ActionListener() {
